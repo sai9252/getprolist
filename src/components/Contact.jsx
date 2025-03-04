@@ -29,6 +29,7 @@ const Contact = () => {
             if (!formData[key].trim()) {
                 return "All fields are mandatory";
             }
+            
         }
         return "";
     };
